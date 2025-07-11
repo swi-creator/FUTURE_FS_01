@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+</head>
+
+<body>
+  <header class="navbar">
+    <a href="#" class="logo">Vidushiiii</a>
+    <nav class="nav-links" id="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#Skills">Skill</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="hamburger" onclick="togglemenu()"></div>
+  </header>
+
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello, It's Me</h3>
+      <h1>Vidushi Singh</h1>
+      <h3>And I'm a <span class="text"></span></h3>
+      <p>I'm a Full Stack Developer with a strong interest in cloud technologies and DevOps.<br>
+        I build scalable web apps using tools like React, Node.js, and Python, and I'm learning to deploy and manage
+        them using AWS, Docker, and CI/CD pipelines.</p>
+
+      <h1>Connect With Me</h1>
+      <div class="social-icons">
+        <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/in/vidushi-singh-a5939535b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+
+      <div class="btn-box">
+        <a href="/download-cv">Download CV</a>
+      </div>
+    </div>
+    <span class="home-imghover"></span>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="assets/about me.jpeg" alt="Profile Picture" height="550px" width="520px">
+    </div>
+
+    <div class="about-text">
+      <h2>About <span>Me</span></h2>
+      <h4>Full Stack Developer!</h4>
+      <p>Hi, I'm a Full-Stack Developer with a growing passion for cloud technologies and modern web development. I
+        love building powerful, scalable web applications—from designing sleek front-end interfaces to crafting
+        efficient back-end systems.
+        <br><br>
+        Currently, I’m diving deep into cloud platforms like AWS, Azure, and Google Cloud, aiming to enhance my skills
+        in deployment, automation, and DevOps practices.
+        <br><br>
+        This portfolio is a reflection of my journey. It showcases my projects and also serves as a canvas for my
+        learning and exploration.
+        <br><br>
+        Let’s build something amazing together.
+      </p>
+      <a href="#" class="btn-box">More About Me</a>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="container1">
+      <h1 class="sub-title">My <span>Services</span></h1>
+      <div class="services-list">
+        <div>
+          <i class='bx bx-paint'></i>
+          <h2>UI/UX Design</h2>
+          <p>I design responsive, user-centered interfaces that combine aesthetics and functionality across web and mobile platforms.</p>
+          <a href="#" class="read">Learn more</a>
+        </div>
+        <div>
+          <i class='bx bx-code-alt'></i>
+          <h2>Full Stack Development</h2>
+          <p>From frontend to backend, I develop end-to-end scalable applications using React, Node.js, Python, and databases.</p>
+          <a href="#" class="read">Learn more</a>
+        </div>
+        <div>
+          <i class='bx bx-cloud'></i>
+          <h2>Cloud & DevOps</h2>
+          <p>I work with AWS, Docker, CI/CD pipelines, and infrastructure-as-code to automate, deploy, and scale applications.</p>
+          <a href="#" class="read">Learn more</a>
+        </div>
+       </div>
+    </div>
+  </section>
+
+<section id="skills" class="container">
+    <h2 class="section-title">
+      <span class="white-text">My</span> <span class="blue-text">Skills</span>
+    </h2>
+
+    <!-- Frontend -->
+    <div class="skills-category">
+      <h3>Frontend</h3>
+      <ul class="skills-list">
+        <li><i class="devicon-html5-plain colored"></i> HTML5</li>
+        <li><i class="devicon-css3-plain colored"></i> CSS3</li>
+        <li><i class="devicon-javascript-plain colored"></i> JavaScript</li>
+        <li><i class="devicon-react-original colored"></i> React.js</li>
+        <li><i class="devicon-nextjs-original"></i> Next.js</li>
+        <li><i class="devicon-tailwindcss-original colored"></i> Tailwind CSS</li>
+        <li><i class="devicon-bootstrap-plain colored"></i> Bootstrap</li>
+      </ul>
+    </div>
+
+    <!-- Backend -->
+    <div class="skills-category">
+      <h3>Backend</h3>
+      <ul class="skills-list">
+        <li><i class="devicon-nodejs-plain colored"></i> Node.js</li>
+        <li><i class="devicon-express-original"></i> Express.js</li>
+        <li><i class="devicon-mongodb-plain colored"></i> MongoDB</li>
+        <li><i class="devicon-mysql-plain colored"></i> MySQL</li>
+        <li><i class="devicon-postgresql-plain colored"></i> PostgreSQL</li>
+        <li><i class="devicon-python-plain colored"></i> Python</li>
+        <li><i class="devicon-django-plain colored"></i> Django</li>
+      </ul>
+    </div>
+
+    <!-- Cloud & DevOps -->
+    <div class="skills-category">
+      <h3>Cloud & DevOps</h3>
+      <ul class="skills-list">
+        <li><i class="devicon-amazonwebservices-plain colored"></i> AWS</li>
+        <li><i class="devicon-googlecloud-plain colored"></i> Google Cloud</li>
+        <li><i class="devicon-docker-plain colored"></i> Docker</li>
+        <li><i class="devicon-kubernetes-plain colored"></i> Kubernetes</li>
+        <li><i class="devicon-nginx-original colored"></i> Nginx</li>
+        <li><i class="devicon-linux-plain colored"></i> Linux</li>
+      </ul>
+    </div>
+
+    <!-- Tools -->
+    <div class="skills-category">
+      <h3>Tools & Platforms</h3>
+      <ul class="skills-list">
+        <li><i class="devicon-git-plain colored"></i> Git</li>
+        <li><i class="devicon-github-original"></i> GitHub</li>
+        <li><i class="devicon-vscode-plain colored"></i> VS Code</li>
+        <li><i class="devicon-figma-plain colored"></i> Figma</li>
+        <li><i class="devicon-postman-plain colored"></i> Postman</li>
+      </ul>
+    </div>
+  </section>
+
+
+
+   
+<section id="skills">
+  <div class="container">
+    <h1 class="heading1">
+      <span class="white-text" >License </span>&<span class="cyan-text">Certificate</span>
+    <div class="certificate-grid">
+      <div class="cert-box">
+        <img src="assets/aws.png" alt="AWS Certificate" />
+        <p>AWS Cloud Practitioner</p>
+      </div>
+      <div class="cert-box">
+        <img src="assets/deloitte.png" alt="Deloitte Certificate" />
+        <p>Deloitte Virtual Internship</p>
+      </div>
+      <!-- Add more certificates here -->
+       <div class="cert-box">
+        <img src="assets/google cloud.jpeg" alt="Deloitte Certificate" />
+        <p>Introduction to Gen AI studio</p>
+      </div>
+    
+ <div class="cert-box">
+        <img src="assets/Gen AI.jpeg" alt="Deloitte Certificate" />
+        <p>GenAI for Professional</p>
+      </div>
+    
+      <div class="cert-box">
+        <img src="assets/infosys.jpeg" alt="Deloitte Certificate" />
+        <p>Cloud Computing</p>
+      </div> 
+      
+      <div class="cert-box">
+        <img src="assets/prompt eng.png" alt="Deloitte Certificate" />
+        <p>Prompt Engineering</p>
+        </div>
+      
+
+  </div>
+</section>
+
+ <section class="contact" id="contact">
+    <div class="contact-text">
+      <h2>Contact <span>Me</span></h2>
+      <h4>Let's work Together</h4>
+      <p>If you're looking to collaborate or just want to say hi, feel free to reach out!</p>
+      <div class="contact-list">
+        <li><i class='bx bxs-send'></i> Vidushi5026@gmail.com</li>
+        <li><i class='bx bx-phone'></i> 01234567</li>
+      </div>
+      <div class="contact-icons">
+        <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+        <a href="#"><i class='bx bxl-twitter'></i></a>
+        <a href="#"><i class='bx bxl-instagram'></i></a>
+        <a href="#"><i class='bx bxl-linkedin'></i></a>
+      </div>
+    </div>
+    <div class="contact-form">
+      <form>
+        <input type="text" placeholder="Enter Your Name" required>
+        <input type="email" placeholder="Enter Your Email" required>
+        <input type="text" placeholder="Enter Your Subject">
+        <textarea cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
+        <input type="submit" value="Submit" class="send">
+      </form>
+    </div>
+  </section>
+
+  <div class="last-text">
+    <p>Developed by Vidushi @2025</p>
+  </div>
+
+  <a href="#" class="top"><i class='bx bx-up-arrow-alt'></i></a>
+  <script src="main.js"></script>
+</body>
+
+</html>
