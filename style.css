@@ -827,6 +827,31 @@ body {
     color: #000;
 }
 
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .contact-left, .contact-right {
+    width: 100%;
+    text-align: center;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 90%;
+    margin: 10px auto;
+    display: block;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+}
+
+
 
 @keyframes fadeInDown {
     from {
@@ -912,3 +937,5 @@ body {
         transform: translateY(0px);
         opacity: 1;
     }
+
+}
